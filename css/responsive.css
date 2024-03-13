@@ -1,1 +1,11 @@
 /* DESKTOP FIRST */
+@media screen and (min-width:768px) {
+    .custom-smaller-container-bottom {
+        width: 60%;
+        max-width: 1320px;
+    }
+
+    .custom-smaller-container-bottom {
+        width: 60%;
+    }
+}
