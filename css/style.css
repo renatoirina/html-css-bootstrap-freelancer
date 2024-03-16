@@ -1,61 +1,108 @@
-/* debug */
-.debug-box {
-    background-color: green;
-    width: 100%;
-    height: 200px;
+/* RESET */
+img {
+    max-width: 100%;
 }
 
-[class^=col-] {
-    border: 1px solid black;
-    height: 200px;
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 /* COMMON */
-.custom-smaller-container-bottom {
+/* LAYOUT */
+.ms-smaller-container {
+    max-width: 650px;
+}
+
+.ms-smaller-container-bottom {
     width: 70%;
+    max-width: 1100px;
+}
+
+/* STAR */
+.ms-star span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ms-line {
+    width: 15%;
+    border-radius: 5px;
+}
+
+.ms-line-white {
+    border-bottom: 0.2rem solid white;
+}
+
+.ms-line-black {
+    border-bottom: 0.2rem solid var(--header-blue);
+}
+
+/* hover */
+.ms-about-download .btn:hover {
+    color: var(--hero-green);
+}
+
+form .btn:hover {
+    background-color: var(--hero-green-darker);
 }
 
 /* HEADER */
-.custom-header {
+.ms-header {
     height: var(--header-height);
     background-color: var(--header-blue);
 }
 
+.navbar{
+    background-color: var(--header-blue);
+}
+
+/* MAIN */
 /* HERO */
-.custom-hero {
+.ms-hero {
     padding-top: var(--header-height);
-    /* debug */
-    background-color: blue;
 }
 
-/* PORTFOLIO */
-.custom-portfolio {
-    /* debug */
-    background-color: red;
+.ms-hero-img img {
+    display: block;
+    width: 50%;
 }
 
-/* ABOUT */
-.custom-about {
-    /* debug */
-    background-color: blue;
-}
-/* debug */
-.custom-about .col-12 {
-    height: 100%;
+/* Contact */
+.form-floating :first-child {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
 }
 
-/* CONTACT */
-.custom-contact {
-    /* debug */
-    background-color: red;
+.form-floating>label {
+    padding-left: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+#comments {
+    height: 200px;
 }
 
 /* SOCIALS */
-.custom-socials {
+.ms-socials {
     background-color: var(--socials-blue);
 }
 
+.ratio {
+    max-width: 62px;
+}
+
 /* FOOTER */
-.custom-footer {
+.ms-footer {
     background-color: var(--header-blue);
+}
+
+.ms-footer span{
+    font-size: 0.7rem;
 }

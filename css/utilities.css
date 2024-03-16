@@ -1,8 +1,26 @@
+/* CUSTOM PROPERTIES */
 :root {
-    /* heights */
-    --header-height: 80px;
-    
     /* colors */
     --header-blue: #2C3E50;
     --socials-blue: #3A546D;
+    --hero-green: #1ABC9C;
+    --hero-green-darker: #159c81;
+    
+    /* heights */
+    --header-height: 80px;
+}
+
+/* COLORS */
+/* text */
+.ms-green-text {
+    color: var(--hero-green);
+}
+
+.ms-text-header-color {
+    color: var(--header-blue);
+}
+
+/* bg */
+.ms-green-bg {
+    background-color: var(--hero-green);
 }
